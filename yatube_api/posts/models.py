@@ -4,6 +4,7 @@ from django.db import models
 
 User = get_user_model()
 
+
 class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateTimeField(
@@ -62,7 +63,7 @@ class Follow(models.Model):
         on_delete=models.CASCADE,
         related_name='following'
     )
-    
+
     class Meta:
         constraints = [
             models.UniqueConstraint(
