@@ -1,4 +1,4 @@
-### api_final
+# api_final
 
 ## Description: 
 
@@ -38,7 +38,7 @@ Launch a project:
 
 ## Examples. Some examples of API requests.
 
-# GET http://127.0.0.1:8000/api/v1/posts/
+### GET http://127.0.0.1:8000/api/v1/posts/
 
 Response samples
 
@@ -62,7 +62,7 @@ Status == 200:
 }
 ```
 
-# POST http://127.0.0.1:8000/api/v1/posts/
+### POST http://127.0.0.1:8000/api/v1/posts/
 
 Response samples
 
@@ -110,7 +110,7 @@ Status == 401
 }
 ```
 
-# PUT http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/{id}/
+### PUT http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/{id}/
 
 Request samples
 
