@@ -76,9 +76,6 @@ Status == 200
 }
 ```
 
-Response samples
-
-
 Status == 201
 
 ```
@@ -114,9 +111,11 @@ Status == 401
 
 Request samples
 
+```
 {
   "text": "string"
 }
+```
 
 Response samples
 
